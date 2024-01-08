@@ -1,2 +1,4 @@
 # First-Repo
-New One
+Author - Hassaan Ejaz
+<br>
+This is my First Repository
