@@ -29,13 +29,39 @@ This is my First Repository
  <div>
  <ol>
 <li><b>Header:</b></li><p> This tag use for heading area in website ans shown as rectangular box on websita at the top of a website<Header></Header></p>
-    <li><b>Navigation:<b></li><p>This tag used for web link about our website,also this area showed on top in header area</p>
+    <li><b>Navigation:</b></li><p>This tag used for web link about our website,also this area showed on top in header area</p>
     <li>Side Portion</li><p>This tag used to show side part of the website mean also called as side bar </P>
     <li>Section</li><p>This tag used to show different section in website.
     <li>Article</li><P>This tag show different article written in website</p>
     <li>Main part</li>This tag used to show the main part of the website
     <li><b>Footer:</b></li><p>This tag shows ending area of website show on bottom part of the website</P>
     </ol>
+<style>
+    input[type=text], select{
+        width: 75%;
+        padding: 12px 20px;
+        margin: 6px 2px;
+        display: inline-block;
+        border: 1px solid rgb(114, 135, 156);
+        border-radius: 3px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 50%;
+        background-color: #4CAF50;
+        color: beige;
+        padding: 8px 18px;
+        margin: 6px 0;
+        border: none;
+        border-radius: 3px;
+    }
+
+    input[type=submit]:hover {
+        background-color: #424242;
+    }
+
+</style>
     </div>
     </section>
     </main>
