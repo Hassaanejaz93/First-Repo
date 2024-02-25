@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Targeting an ID and class by Dom</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Targeting an ID and class by Dom</title>
 </head>
+
 <body>
-  <div id="My name">This is the element with ID 'My name'</div>
+  <h1> Fillup the from</h1>
+    <form>
+        <!-- name -->
+        <div>
+            <input type="text" name="name" id="name">
+        </div>
+        <!-- email -->
+        <div>
+            <input type="email" name="email" id="email">
+        </div>
+        <!-- password -->
+        <div>
+            <input type="password" name="password" id="password">
+        </div>
+        <!-- submit btn -->
+        <div>
+            <button type="submit">Sign Up</button>
+        </div>
+    </form>
 
-  <script>
-    // Retrieve the element by its ID
-    var id = document.getElementById('My name');
 
-    // Log the element to the console
-    console.log(id);
 
-    </script>
 
   <script src="script.js"></script>
 </body>
+
 </html>
